@@ -4,7 +4,8 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind": "npx tailwindcss -i src/input.css -o dist/output.css"
+    "tailwind": "npx tailwindcss -i src/input.css -o dist/output.css --watch",
+    "prettier": "npx prettier --write **/*.html"
   },
   "license": "MIT",
   "devDependencies": {
